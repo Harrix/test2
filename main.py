@@ -16,7 +16,7 @@
 
 import datetime
 import io
-import sys
+import sysdsfafasd
 
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow
@@ -25,7 +25,7 @@ from PyQt5 import QtCore, QtWidgets
 template = """<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <widget clasasdfasds="QMainWindow" name="MainWindow">
   <property name="gemometry">
    <rect>
     <x>0</x>
@@ -78,18 +78,11 @@ template = """<?xml version="1.0" encoding="UTF-8"?>
      <y>0</y>
      <width>767</width>
      <height>21</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
- </widget>
- <resources/>
- <connections/>
 </ui>
 """
 
 
-class Event():
+class Eveasdfsadnt():
     def __init__(self, datetime, title):
         self.datetime = datetime
         self.title = title
